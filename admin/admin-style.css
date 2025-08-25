@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Noto Sans Lao', 'Phetsarath OT', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main-content {
+    padding: 32px 24px;
+    min-height: 100vh;
+    background: #f8f9fa;
+}
+.history-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+.admin-sidebar {
+    min-height: 100vh;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    padding-right: 0;
+}
+.sidebar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #fff;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    box-shadow: 0 4px 32px rgba(102,126,234,0.18), 0 1.5px 8px rgba(102,126,234,0.10);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.sidebar .nav-link {
+    color: #fff;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: 1.13rem;
+    font-family: 'Noto Sans Lao', 'Phetsarath OT', sans-serif;
+    font-weight: 500;
+}
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    color: #fff;
+    background: rgba(255,255,255,0.13);
+}
+.sidebar h4 {
+    color: #fff;
+    font-family: 'Noto Sans Lao', 'Phetsarath OT', sans-serif;
+    font-weight: 700;
+    font-size: 1.35rem;
+    margin-bottom: 2.2rem;
+} 

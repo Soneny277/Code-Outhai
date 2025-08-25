@@ -1,0 +1,15 @@
+Options -Indexes
+ServerSignature Off
+
+<Files "*.sql">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "*.log">
+    Order allow,deny
+    Deny from all
+</Files>
+
+AddType application/x-httpd-php .php
+AddDefaultCharset UTF-8 
